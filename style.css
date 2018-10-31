@@ -3,6 +3,24 @@ body {
   background-color: #5cdb95;
 }
 
+<<<<<<< head main {
+  display: grid;
+  grid-gap: 10px;
+  padding: 20px;
+  width: 100%;
+  grid-auto-flow: rows;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: 4;
+  grid-template-areas:
+    "main main main main"
+    "main main main main"
+    "main main main main"
+    "footer footer footer footer";
+}
+
+#about {
+}
+/**************navbar style *************/
 .navbar {
   max-width: 100%;
   margin-left: auto;
@@ -25,7 +43,7 @@ body {
   text-decoration: none;
   font-size: 2em;
 }
-/************* form style ********/
+/************* form style ***************/
 .form-style-1 {
   margin: 10px auto;
   max-width: 400px;
@@ -71,24 +89,6 @@ textarea {
   border: 1px solid #88d5e9;
 }
 
-<<<<<<< head main {
-  display: grid;
-  grid-gap: 10px;
-  padding: 20px;
-  width: 100%;
-  grid-auto-flow: rows;
-  grid-template-columns: repeat(4, 50px);
-  grid-template-rows: 4;
-  grid-template-areas:
-    "main main main main"
-    "main main main main"
-    "main main main main"
-    "footer footer footer footer";
-}
-
-#about {
-}
-
 .form-style-1 {
   width: 49%;
 }
@@ -101,16 +101,14 @@ textarea {
   height: 100px;
 }
 
-.form-style-1 input[type="submit"],
-.form-style-1 input[type="button"] {
+.form-style-1 input[type="submit"] {
   background: #4b99ad;
   padding: 8px 15px 8px 15px;
   border: none;
   color: #fff;
 }
 
-.form-style-1 input[type="submit"]:hover,
-.form-style-1 input[type="button"]:hover {
+.form-style-1 input[type="submit"]:hover {
   background: #4691a4;
   box-shadow: none;
   -moz-box-shadow: none;
