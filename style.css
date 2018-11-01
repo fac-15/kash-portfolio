@@ -1,5 +1,5 @@
 body {
-  height: 2000px;
+  height: 200em;
   background-color: #5cdb95;
 }
 
@@ -19,6 +19,19 @@ body {
 }
 
 #about {
+  height: 50em;
+}
+
+#home {
+  height: 50em;
+}
+
+#team {
+  height: 50em;
+}
+
+#contact {
+  height: 50em;
 }
 /**************navbar style *************/
 .navbar {
