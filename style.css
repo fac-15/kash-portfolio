@@ -1,12 +1,12 @@
 body {
   height: 200em;
   background-color: #5cdb95;
+  font-size: 1.1vw;
 }
 
 h1 {
   font-family: "Comfortaa", cursive;
   color: #05386b;
-
   letter-spacing: 0.2em;
 }
 
@@ -17,18 +17,23 @@ h2 {
 }
 
 p {
+  font-size: 1em;
   font-family: "Comfortaa", cursive;
   color: #FFE4E0;
   text-shadow: 1px 1px 1px 1px black;
 }
 
-.responsive{
+a {
+  text-decoration: none;
+  color: #18593f;
+}
+.responsive {
   width: 60%;
   height: auto;
 }
 
-#image{
-    z-index: -1;
+#image {
+  z-index: -1;
 }
 
 #logo {
@@ -37,7 +42,7 @@ p {
   justify-content: center;
 }
 
-.card{
+.card {
   height: 30em;
   width: 90vw;
   border: 2px dashed #379683;
@@ -49,7 +54,9 @@ p {
 #heading {
   display: flex;
   align-items: center;
-  justify-content:center;
+
+  justify-content: center;
+
   font-style: italic;
 }
 
@@ -86,15 +93,15 @@ p {
   background-repeat: no-repeat;
 }
 
-#about-us-Kash{
-  font-family: 'Knewave', cursive;
-  color: #05386B;
+#about-us-Kash {
+  font-family: "Knewave", cursive;
+  color: #05386b;
   text-transform: uppercase;
-  text-shadow: 2px 2px #EDF5E1;
+  text-shadow: 2px 2px #edf5e1;
 }
 
-#smaller-text{
-  font-size: 1.5rem;
+ #smaller-text{
+  font-size: 0.8em;
 }
 
 #team {
@@ -103,7 +110,6 @@ p {
   grid-template-columns: auto auto;
   margin: 0 auto;
   max-width: 500px;
-
 }
 #section3 {
   background-color: #379683;
@@ -154,15 +160,15 @@ p {
   height: 50em;
 }
 #section4 {
-
   background-image: linear-gradient(
-    rgba(77, 211, 159, 0.45),
-    rgba(170, 255, 223, 0.45)),
+      rgba(77, 211, 159, 0.45),
+      rgba(170, 255, 223, 0.45)
+    ),
     url(https://files.gitter.im/Kashgroup/Lobby/GAZX/IMG_3695background3.jpg);
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-repeat: no-repeat;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
 }
 
 /**************navbar style *************/
@@ -190,7 +196,7 @@ p {
   color: #05386b;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  text-shadow: 2px 2px #EDF5E1;
+  text-shadow: 2px 2px #edf5e1;
 }
 /************* form style ***************/
 .form-style-1 {
@@ -221,7 +227,7 @@ textarea {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  border: 1px solid #bebebe;
+  border: 1px solid #379683;
   padding: 7px;
   margin: 0px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -234,10 +240,10 @@ textarea {
 .form-style-1 input[type="text"]:focus,
 .form-style-1 input[type="email"]:focus,
 .form-style-1 textarea:focus {
-  -moz-box-shadow: 0 0 8px #379683;
-  -webkit-box-shadow: 0 0 8px #379683;
-  box-shadow: 0 0 8px #379683;
-  border: 1px solid #379683;
+  -moz-box-shadow: 0 0 8px #c94b3a;
+  -webkit-box-shadow: 0 0 8px #c94b3a;
+  box-shadow: 0 0 8px #c94b3a;
+  border: 1px solid #c94b3a;
 }
 
 .form-style-1 {
