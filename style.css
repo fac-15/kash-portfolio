@@ -26,7 +26,7 @@ p{
   justify-content: center;
 }
 
-#frontcard{
+.card{
   height: 30em;
   width: 90vw;
   border: 2px dashed #379683 ;
@@ -35,8 +35,7 @@ p{
   justify-content: center;
 }
 
-
-#frontpage {
+#heading {
   display: flex;
   align-items: center;
   justify-content:center;
@@ -63,16 +62,33 @@ p{
 }
 
 #about {
-  padding-top: 6em;
+  padding-top: 3em;
   height: 50em;
+  font-size: 2.5em;
+  line-height: 1.3em;
+  display: block;
+  text-align: center;
+  margin: 0 3em 0 3em;
+  font-weight: bold;
+
 }
 
+#about-us-Kash{
+  font-family: 'Knewave', cursive;
+  color: #05386B;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #EDF5E1;
+}
+
+#smaller-text{
+  font-size: 1.5rem;
+}
 #home {
-  /* height: 50em; */
-  padding-top: 2em;
+  height: 85vh;
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
+  padding-top: 2.5em;
 }
 
 #team {
@@ -82,6 +98,11 @@ p{
   margin: 0 auto;
   max-width: 500px;
   /*: 2px solid #2b5291;*/
+}
+
+#contact {
+  padding-top: 6em;
+  height: 50em;
 }
 
 .hannah img {
@@ -111,12 +132,6 @@ p{
   grid-area: 2 / 4 / 3 / 5;
 }
 
-#contact {
-  padding-top: 6em;
-  height: 50em;
-}
-
-
 /**************navbar style *************/
 .navbar {
   max-width: 100%;
@@ -125,7 +140,7 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2vw;
+  margin-top: -1vw;
   position: sticky;
   top: 2vw;
 }
@@ -142,6 +157,7 @@ p{
   color: #05386B;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  text-shadow: 2px 2px #EDF5E1;
 }
 /************* form style ***************/
 .form-style-1 {
