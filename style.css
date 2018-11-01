@@ -3,7 +3,6 @@ body {
   background-color: #5cdb95;
 }
 
-
 h1 {
   font-family: "Comfortaa", cursive;
   color: #05386b;
@@ -20,6 +19,15 @@ h2 {
 p {
   font-family: "Comfortaa", cursive;
   color: #05386b;
+}
+
+.responsive{
+  width: 60%;
+  height: auto;
+}
+
+#image{
+    z-index: -1;
 }
 
 #logo {
@@ -40,9 +48,7 @@ p {
 #heading {
   display: flex;
   align-items: center;
-
   justify-content:center;
-
   font-style: italic;
 }
 
@@ -50,7 +56,14 @@ p {
   text-indent: -9999px;
 }
 
-
+#home {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2.5em;
+  margin-bottom: 2vh;
+}
 
 #about {
   padding-top: 3em;
@@ -79,13 +92,6 @@ p {
 
 #smaller-text{
   font-size: 1.5rem;
-}
-#home {
-  height: 85vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 2.5em;
 }
 
 #team {
@@ -258,3 +264,5 @@ textarea {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
 }
+
+/************* form style ***************/
