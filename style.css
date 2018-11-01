@@ -3,9 +3,11 @@ body {
   background-color: #5cdb95;
 }
 
+
 h1 {
   font-family: "Comfortaa", cursive;
   color: #05386b;
+
   letter-spacing: 0.2em;
 }
 
@@ -26,8 +28,9 @@ p {
   justify-content: center;
 }
 
-#frontcard {
-  height: 40em;
+
+#frontcard{
+  height: 30em;
   width: 90vw;
   border: 2px dashed #379683;
   display: flex;
@@ -38,8 +41,9 @@ p {
 #frontpage {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding-top: 4rem;
+
+  justify-content:center;
+
   font-style: italic;
 }
 
@@ -47,14 +51,16 @@ p {
   text-indent: -9999px;
 }
 
+
+
 #about {
   padding-top: 6em;
   height: 50em;
 }
 
 #home {
-  padding-top: 6em;
-  height: 50em;
+  /* height: 50em; */
+  padding-top: 2em;
   display: flex;
   align-items: center;
   justify-content: center;
