@@ -3,24 +3,26 @@ body {
   background-color: #5cdb95;
 }
 
-h1{
-  font-family: 'Comfortaa', cursive;
-  color: #05386B;
+
+h1 {
+  font-family: "Comfortaa", cursive;
+  color: #05386b;
+
   letter-spacing: 0.2em;
 }
 
-h2{
-  font-family: 'Knewave', cursive;
-  color: #05386B;
+h2 {
+  font-family: "Knewave", cursive;
+  color: #05386b;
   text-transform: uppercase;
 }
 
-p{
-  font-family: 'Comfortaa', cursive;
-  color: #05386B;
+p {
+  font-family: "Comfortaa", cursive;
+  color: #05386b;
 }
 
-#logo{
+#logo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,7 +31,7 @@ p{
 .card{
   height: 30em;
   width: 90vw;
-  border: 2px dashed #379683 ;
+  border: 2px dashed #379683;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,7 +40,9 @@ p{
 #heading {
   display: flex;
   align-items: center;
+
   justify-content:center;
+
   font-style: italic;
 }
 
@@ -46,20 +50,7 @@ p{
   text-indent: -9999px;
 }
 
-<<<<<<< head main {
-  display: grid;
-  grid-gap: 10px;
-  padding: 20px;
-  width: 100%;
-  grid-auto-flow: rows;
-  grid-template-columns: repeat(4, 50px);
-  grid-template-rows: 4;
-  grid-template-areas:
-    "main main main main"
-    "main main main main"
-    "main main main main"
-    "footer footer footer footer";
-}
+
 
 #about {
   padding-top: 3em;
@@ -71,6 +62,12 @@ p{
   margin: 0 3em 0 3em;
   font-weight: bold;
 
+  background-image: linear-gradient(
+  rgba(5, 214, 134, 0.45),
+  rgba(5, 214, 134, 0.45)),
+  url(https://files.gitter.im/Kashgroup/Lobby/nRPa/IMG_3676background3.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #about-us-Kash{
@@ -97,7 +94,15 @@ p{
   grid-template-columns: auto auto;
   margin: 0 auto;
   max-width: 500px;
-  /*: 2px solid #2b5291;*/
+
+}
+#section3 {
+  background-color: #379683;
+  padding-bottom: 6em;
+}
+
+#section2 {
+  background-color: #8ee4af;
 }
 
 #contact {
@@ -123,13 +128,32 @@ p{
 .kristina section {
   grid-area: 2 / 3 / 3 / 4;
 }
-.alex img {
-  grid-area: 1 / 4 / 2 / 5;
-  width: 250px;
+.team .alex img {
+  grid-area: 1 / 4 / 3 / 5;
+  min-width: 250px;
   height: 250px;
 }
 .kristina section {
   grid-area: 2 / 4 / 3 / 5;
+}
+#alex img {
+  width: 250px;
+  min-width: 250px;
+}
+#contact {
+  padding-top: 6em;
+  height: 50em;
+}
+#section4 {
+
+  background-image: linear-gradient(
+    rgba(77, 211, 159, 0.45),
+    rgba(170, 255, 223, 0.45)),
+    url(https://files.gitter.im/Kashgroup/Lobby/GAZX/IMG_3695background3.jpg);
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
 }
 
 /**************navbar style *************/
@@ -151,10 +175,10 @@ p{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-family: 'Knewave', cursive;
+  font-family: "Knewave", cursive;
   text-decoration: none;
   font-size: 2em;
-  color: #05386B;
+  color: #05386b;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   text-shadow: 2px 2px #EDF5E1;
@@ -178,8 +202,8 @@ p{
   padding: 0px;
   display: block;
   font-weight: bold;
-  font-family: 'Comfortaa', cursive;
-  color: #05386B;
+  font-family: "Comfortaa", cursive;
+  color: #05386b;
 }
 
 .form-style-1 input[type="text"],
@@ -202,9 +226,9 @@ textarea {
 .form-style-1 input[type="email"]:focus,
 .form-style-1 textarea:focus {
   -moz-box-shadow: 0 0 8px #379683;
-  -webkit-box-shadow: 0 0 8px  #379683;
-  box-shadow: 0 0 8px  #379683;
-  border: 1px solid  #379683;
+  -webkit-box-shadow: 0 0 8px #379683;
+  box-shadow: 0 0 8px #379683;
+  border: 1px solid #379683;
 }
 
 .form-style-1 {
@@ -220,12 +244,12 @@ textarea {
 }
 
 .form-style-1 input[type="submit"] {
-  background: #8EE4AF;
+  background: #8ee4af;
   padding: 8px 15px 8px 15px;
   border: none;
   color: #fff;
-  font-family: 'Comfortaa', cursive;
-  color: #05386B;
+  font-family: "Comfortaa", cursive;
+  color: #05386b;
 }
 
 .form-style-1 input[type="submit"]:hover {
