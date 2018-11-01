@@ -56,6 +56,12 @@ p {
 #about {
   padding-top: 6em;
   height: 50em;
+  background-image: linear-gradient(
+  rgba(5, 214, 134, 0.45), 
+  rgba(5, 214, 134, 0.45)), 
+  url(https://files.gitter.im/Kashgroup/Lobby/nRPa/IMG_3676background3.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #home {
@@ -72,9 +78,11 @@ p {
   grid-template-columns: auto auto;
   margin: 0 auto;
   max-width: 500px;
+  
 }
 #section3 {
   background-color: #379683;
+  padding-bottom: 6em;
 }
 
 #section2 {
@@ -114,6 +122,17 @@ p {
 #contact {
   padding-top: 6em;
   height: 50em;
+}
+#section4 {
+
+  background-image: linear-gradient(
+    rgba(77, 211, 159, 0.45), 
+    rgba(170, 255, 223, 0.45)), 
+    url(https://files.gitter.im/Kashgroup/Lobby/GAZX/IMG_3695background3.jpg);
+    width: 100%;
+    top: 0;
+    left: 0;  
+    background-repeat: no-repeat;
 }
 
 /**************navbar style *************/
