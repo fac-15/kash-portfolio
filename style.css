@@ -3,6 +3,31 @@ body {
   background-color: #5cdb95;
 }
 
+#logo{
+  font-size: 4vw;
+  font-family: 'Knewave', cursive;
+  color: #05386B;;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+h1{
+  font-family: 'Comfortaa', cursive;
+  color: #05386B;
+  letter-spacing: 0.2em;
+}
+
+h2{
+  font-family: 'Knewave', cursive;
+  color: #05386B;
+  text-transform: uppercase;
+}
+
+p{
+  font-family: 'Comfortaa', cursive;
+  color: #05386B;
+}
+
 <<<<<<< head main {
   display: grid;
   grid-gap: 10px;
@@ -33,6 +58,8 @@ body {
 #contact {
   height: 50em;
 }
+
+
 /**************navbar style *************/
 .navbar {
   max-width: 100%;
@@ -52,9 +79,12 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Knewave', cursive;
   text-decoration: none;
   font-size: 2em;
+  color: #05386B;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
 /************* form style ***************/
 .form-style-1 {
@@ -75,6 +105,8 @@ body {
   padding: 0px;
   display: block;
   font-weight: bold;
+  font-family: 'Comfortaa', cursive;
+  color: #05386B;
 }
 
 .form-style-1 input[type="text"],
@@ -96,10 +128,10 @@ textarea {
 .form-style-1 input[type="text"]:focus,
 .form-style-1 input[type="email"]:focus,
 .form-style-1 textarea:focus {
-  -moz-box-shadow: 0 0 8px #88d5e9;
-  -webkit-box-shadow: 0 0 8px #88d5e9;
-  box-shadow: 0 0 8px #88d5e9;
-  border: 1px solid #88d5e9;
+  -moz-box-shadow: 0 0 8px #379683;
+  -webkit-box-shadow: 0 0 8px  #379683;
+  box-shadow: 0 0 8px  #379683;
+  border: 1px solid  #379683;
 }
 
 .form-style-1 {
@@ -115,10 +147,12 @@ textarea {
 }
 
 .form-style-1 input[type="submit"] {
-  background: #4b99ad;
+  background: #8EE4AF;
   padding: 8px 15px 8px 15px;
   border: none;
   color: #fff;
+  font-family: 'Comfortaa', cursive;
+  color: #05386B;
 }
 
 .form-style-1 input[type="submit"]:hover {
