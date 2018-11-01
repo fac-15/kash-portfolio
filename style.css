@@ -28,8 +28,7 @@ p {
   justify-content: center;
 }
 
-
-#frontcard{
+.card{
   height: 30em;
   width: 90vw;
   border: 2px dashed #379683;
@@ -38,7 +37,7 @@ p {
   justify-content: center;
 }
 
-#frontpage {
+#heading {
   display: flex;
   align-items: center;
 
@@ -54,22 +53,39 @@ p {
 
 
 #about {
-  padding-top: 6em;
+  padding-top: 3em;
   height: 50em;
+  font-size: 2.5em;
+  line-height: 1.3em;
+  display: block;
+  text-align: center;
+  margin: 0 3em 0 3em;
+  font-weight: bold;
+
   background-image: linear-gradient(
-  rgba(5, 214, 134, 0.45), 
-  rgba(5, 214, 134, 0.45)), 
+  rgba(5, 214, 134, 0.45),
+  rgba(5, 214, 134, 0.45)),
   url(https://files.gitter.im/Kashgroup/Lobby/nRPa/IMG_3676background3.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
+#about-us-Kash{
+  font-family: 'Knewave', cursive;
+  color: #05386B;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #EDF5E1;
+}
+
+#smaller-text{
+  font-size: 1.5rem;
+}
 #home {
-  /* height: 50em; */
-  padding-top: 2em;
+  height: 85vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 2.5em;
 }
 
 #team {
@@ -78,7 +94,7 @@ p {
   grid-template-columns: auto auto;
   margin: 0 auto;
   max-width: 500px;
-  
+
 }
 #section3 {
   background-color: #379683;
@@ -87,6 +103,11 @@ p {
 
 #section2 {
   background-color: #8ee4af;
+}
+
+#contact {
+  padding-top: 6em;
+  height: 50em;
 }
 
 .hannah img {
@@ -126,12 +147,12 @@ p {
 #section4 {
 
   background-image: linear-gradient(
-    rgba(77, 211, 159, 0.45), 
-    rgba(170, 255, 223, 0.45)), 
+    rgba(77, 211, 159, 0.45),
+    rgba(170, 255, 223, 0.45)),
     url(https://files.gitter.im/Kashgroup/Lobby/GAZX/IMG_3695background3.jpg);
     width: 100%;
     top: 0;
-    left: 0;  
+    left: 0;
     background-repeat: no-repeat;
 }
 
@@ -143,7 +164,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2vw;
+  margin-top: -1vw;
   position: sticky;
   top: 2vw;
 }
@@ -160,6 +181,7 @@ p {
   color: #05386b;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  text-shadow: 2px 2px #EDF5E1;
 }
 /************* form style ***************/
 .form-style-1 {
