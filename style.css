@@ -19,7 +19,8 @@ h2 {
 p {
   font-size: 1em;
   font-family: "Comfortaa", cursive;
-  color: #05386b;
+  color: #FFE4E0;
+  text-shadow: 1px 1px 1px 1px black;
 }
 
 a {
@@ -74,20 +75,21 @@ a {
 
 #about {
   padding-top: 3em;
-  height: 50em;
+  height: 20em;
   font-size: 2.5em;
   line-height: 1.3em;
   display: block;
   text-align: center;
-  margin: 0 3em 0 3em;
   font-weight: bold;
 
   background-image: linear-gradient(
-      rgba(5, 214, 134, 0.45),
-      rgba(5, 214, 134, 0.45)
-    ),
-    url(https://files.gitter.im/Kashgroup/Lobby/nRPa/IMG_3676background3.jpg);
-  background-size: 100%;
+  rgba(5, 214, 134, 0.45),
+  rgba(5, 214, 134, 0.45)),
+  url(https://files.gitter.im/Kashgroup/Lobby/nRPa/IMG_3676background3.jpg);
+  min-width: 1024px;
+  width: 100%;
+  top: 0;
+  left: 0;
   background-repeat: no-repeat;
 }
 
@@ -257,12 +259,12 @@ textarea {
 }
 
 .form-style-1 input[type="submit"] {
-  background: #8ee4af;
+  background: #32553f;
   padding: 8px 15px 8px 15px;
   border: none;
   color: #fff;
   font-family: "Comfortaa", cursive;
-  color: #05386b;
+  color: #cad8e6;
 }
 
 .form-style-1 input[type="submit"]:hover {
