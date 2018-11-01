@@ -3,7 +3,6 @@ body {
   background-color: #5cdb95;
 }
 
-
 h1{
   font-family: 'Comfortaa', cursive;
   color: #05386B;
@@ -28,7 +27,7 @@ p{
 }
 
 #frontcard{
-  height: 40em;
+  height: 30em;
   width: 90vw;
   border: 2px dashed #379683 ;
   display: flex;
@@ -41,13 +40,11 @@ p{
   display: flex;
   align-items: center;
   justify-content:center;
-  padding-top: 4rem;
   font-style: italic;
 }
 
 #kash {
   text-indent: -9999px;
-
 }
 
 <<<<<<< head main {
@@ -71,8 +68,8 @@ p{
 }
 
 #home {
-  padding-top: 6em;
-  height: 50em;
+  /* height: 50em; */
+  padding-top: 2em;
   display: flex;
   align-items: center;
   justify-content:center;
