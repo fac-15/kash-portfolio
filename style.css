@@ -3,66 +3,48 @@ body {
   background-color: #5cdb95;
 }
 
-
-h1{
-  font-family: 'Comfortaa', cursive;
-  color: #05386B;
+h1 {
+  font-family: "Comfortaa", cursive;
+  color: #05386b;
   letter-spacing: 0.2em;
 }
 
-h2{
-  font-family: 'Knewave', cursive;
-  color: #05386B;
+h2 {
+  font-family: "Knewave", cursive;
+  color: #05386b;
   text-transform: uppercase;
 }
 
-p{
-  font-family: 'Comfortaa', cursive;
-  color: #05386B;
+p {
+  font-family: "Comfortaa", cursive;
+  color: #05386b;
 }
 
-#logo{
+#logo {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#frontcard{
+#frontcard {
   height: 40em;
   width: 90vw;
-  border: 2px dashed #379683 ;
+  border: 2px dashed #379683;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 
 #frontpage {
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   padding-top: 4rem;
   font-style: italic;
 }
 
 #kash {
   text-indent: -9999px;
-
-}
-
-<<<<<<< head main {
-  display: grid;
-  grid-gap: 10px;
-  padding: 20px;
-  width: 100%;
-  grid-auto-flow: rows;
-  grid-template-columns: repeat(4, 50px);
-  grid-template-rows: 4;
-  grid-template-areas:
-    "main main main main"
-    "main main main main"
-    "main main main main"
-    "footer footer footer footer";
 }
 
 #about {
@@ -75,7 +57,7 @@ p{
   height: 50em;
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
 }
 
 #team {
@@ -84,7 +66,13 @@ p{
   grid-template-columns: auto auto;
   margin: 0 auto;
   max-width: 500px;
-  /*: 2px solid #2b5291;*/
+}
+#section3 {
+  background-color: #379683;
+}
+
+#section2 {
+  background-color: #8ee4af;
 }
 
 .hannah img {
@@ -105,20 +93,22 @@ p{
 .kristina section {
   grid-area: 2 / 3 / 3 / 4;
 }
-.alex img {
-  grid-area: 1 / 4 / 2 / 5;
-  width: 250px;
+.team .alex img {
+  grid-area: 1 / 4 / 3 / 5;
+  min-width: 250px;
   height: 250px;
 }
 .kristina section {
   grid-area: 2 / 4 / 3 / 5;
 }
-
+#alex img {
+  width: 250px;
+  min-width: 250px;
+}
 #contact {
   padding-top: 6em;
   height: 50em;
 }
-
 
 /**************navbar style *************/
 .navbar {
@@ -139,10 +129,10 @@ p{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-family: 'Knewave', cursive;
+  font-family: "Knewave", cursive;
   text-decoration: none;
   font-size: 2em;
-  color: #05386B;
+  color: #05386b;
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
@@ -165,8 +155,8 @@ p{
   padding: 0px;
   display: block;
   font-weight: bold;
-  font-family: 'Comfortaa', cursive;
-  color: #05386B;
+  font-family: "Comfortaa", cursive;
+  color: #05386b;
 }
 
 .form-style-1 input[type="text"],
@@ -189,9 +179,9 @@ textarea {
 .form-style-1 input[type="email"]:focus,
 .form-style-1 textarea:focus {
   -moz-box-shadow: 0 0 8px #379683;
-  -webkit-box-shadow: 0 0 8px  #379683;
-  box-shadow: 0 0 8px  #379683;
-  border: 1px solid  #379683;
+  -webkit-box-shadow: 0 0 8px #379683;
+  box-shadow: 0 0 8px #379683;
+  border: 1px solid #379683;
 }
 
 .form-style-1 {
@@ -207,12 +197,12 @@ textarea {
 }
 
 .form-style-1 input[type="submit"] {
-  background: #8EE4AF;
+  background: #8ee4af;
   padding: 8px 15px 8px 15px;
   border: none;
   color: #fff;
-  font-family: 'Comfortaa', cursive;
-  color: #05386B;
+  font-family: "Comfortaa", cursive;
+  color: #05386b;
 }
 
 .form-style-1 input[type="submit"]:hover {
