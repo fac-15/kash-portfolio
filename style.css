@@ -25,6 +25,15 @@ a {
   text-decoration: none;
   color: #18593f;
 }
+.responsive {
+  width: 60%;
+  height: auto;
+}
+
+#image {
+  z-index: -1;
+}
+
 #logo {
   display: flex;
   align-items: center;
@@ -51,6 +60,15 @@ a {
 
 #kash {
   text-indent: -9999px;
+}
+
+#home {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2.5em;
+  margin-bottom: 2vh;
 }
 
 #about {
@@ -81,13 +99,6 @@ a {
 
 #smaller-text {
   font-size: 1.5rem;
-}
-#home {
-  height: 85vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 2.5em;
 }
 
 #team {
@@ -259,3 +270,5 @@ textarea {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
 }
+
+/************* form style ***************/
