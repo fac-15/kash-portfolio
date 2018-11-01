@@ -1,12 +1,12 @@
 body {
   height: 200em;
   background-color: #5cdb95;
+  font-size: 1.1vw;
 }
 
 h1 {
   font-family: "Comfortaa", cursive;
   color: #05386b;
-
   letter-spacing: 0.2em;
 }
 
@@ -17,6 +17,7 @@ h2 {
 }
 
 p {
+  font-size: 1em;
   font-family: "Comfortaa", cursive;
   color: #05386b;
 }
@@ -97,8 +98,8 @@ a {
   text-shadow: 2px 2px #edf5e1;
 }
 
-#smaller-text {
-  font-size: 1.5rem;
+ #smaller-text{
+  font-size: 0.8em;
 }
 
 #team {
