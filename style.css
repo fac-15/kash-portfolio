@@ -3,13 +3,6 @@ body {
   background-color: #5cdb95;
 }
 
-#logo{
-  font-size: 4vw;
-  font-family: 'Knewave', cursive;
-  color: #05386B;;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
 
 h1{
   font-family: 'Comfortaa', cursive;
@@ -26,6 +19,35 @@ h2{
 p{
   font-family: 'Comfortaa', cursive;
   color: #05386B;
+}
+
+#logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#frontcard{
+  height: 40em;
+  width: 90vw;
+  border: 2px dashed #379683 ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#frontpage {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  padding-top: 4rem;
+  font-style: italic;
+}
+
+#kash {
+  text-indent: -9999px;
+
 }
 
 <<<<<<< head main {
@@ -49,6 +71,9 @@ p{
 
 #home {
   height: 50em;
+  display: flex;
+  align-items: center;
+  justify-content:center;
 }
 
 #team {
