@@ -27,6 +27,13 @@ a {
   text-decoration: none;
   color: #18593f;
 }
+
+#about-text{
+  padding: 0 12vw 0 12vw;
+  color: #05386b;
+  text-shadow: 1px 1px 1px 1px white;
+}
+
 .responsive {
   width: 60%;
   height: auto;
@@ -81,12 +88,11 @@ a {
   display: block;
   text-align: center;
   font-weight: bold;
-
   background-image: linear-gradient(
-  rgba(0, 0, 0, 0.904),
-  rgba(0, 0, 0, 0.45)),
+  rgba(5, 214, 134, 0.7),
+  rgba(5, 214, 134, 0.7)),
   url(https://files.gitter.im/Kashgroup/Lobby/nRPa/IMG_3676background3.jpg);
-  min-width: 1024px;
+  min-width: 1060px;
   width: 100%;
   top: 0;
   left: 0;
@@ -110,6 +116,11 @@ a {
   grid-template-columns: auto auto;
   margin: 0 auto;
   max-width: 500px;
+  grid-row-gap: 4em;
+}
+
+#team p {
+  font-size: 1.3em;
 }
 #section3 {
   background-color: #379683;
@@ -130,6 +141,7 @@ a {
 }
 .hannah section {
   grid-area: 2 / 1 / 3 / 2;
+
 }
 .sandra img {
   grid-area: 1 / 2 / 2 / 3;
