@@ -168,8 +168,8 @@ a {
   min-width: 250px;
 }
 #contact {
-  padding-top: 6em;
-  height: 50em;
+  padding-top: 10em;
+  height: 40em;
 }
 #section4 {
   background-image: linear-gradient(
@@ -229,8 +229,10 @@ a {
   padding: 0px;
   display: block;
   font-weight: bold;
-  font-family: "Comfortaa", cursive;
-  color: #05386b;
+  font-family: 'Syncopate', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 1px 1px 2px black;
 }
 
 .form-style-1 input[type="text"],
