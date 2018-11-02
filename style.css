@@ -2,6 +2,7 @@ body {
   height: 200em;
   background-color: #5cdb95;
   font-size: 1.1vw;
+  margin: 0;
 }
 
 h1 {
@@ -34,15 +35,16 @@ a {
   text-shadow: 1px 1px 1px 1px white;
 }
 
-.responsive {
-  width: 60%;
+.hannah-responsive 
+.sandra-responsive
+.kristina-responsive {
+  max-width: 60%;
   height: auto;
 }
-
-#image {
-  z-index: -1;
+.responsive.alex{
+  min-width: 250px;
+  height: 250px;
 }
-
 #logo {
   display: flex;
   align-items: center;
@@ -111,16 +113,18 @@ a {
 }
 
 #team {
-  padding-top: 6em;
+  padding-top: 10em;
+  padding-left: 6em;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
   margin: 0 auto;
-  max-width: 500px;
-  grid-row-gap: 4em;
+  max-width: 1200px;
+  grid-row-gap: 6em;
+
 }
 
 #team p {
-  font-size: 1.3em;
+  font-size: 1.5vw;
 }
 #section3 {
   background-color: #379683;
@@ -156,17 +160,13 @@ a {
   grid-area: 2 / 3 / 3 / 4;
 }
 .team .alex img {
-  grid-area: 1 / 4 / 3 / 5;
-  min-width: 250px;
-  height: 250px;
+  grid-area: 1 / 2/ 1 / 2;
+
 }
 .kristina section {
   grid-area: 2 / 4 / 3 / 5;
 }
-#alex img {
-  width: 250px;
-  min-width: 250px;
-}
+
 #contact {
   padding-top: 6em;
   height: 50em;
