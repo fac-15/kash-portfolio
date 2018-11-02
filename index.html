@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300|Knewave" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Syncopate:700" rel="stylesheet">
     <link rel="shortcut icon" type="image/jpeg" href="favicon.ico"/>
   </head>
 
@@ -87,9 +88,9 @@
       <section id="contact" title = "contact form">
         <form>
           <ul class="form-style-1">
-            <li><label for = "name">Name</label><input type= 'text' id = "name"/> </li>
-            <li> <label for = "email">Email</label> <input type= 'email' id="email" class = "field-long"></li>
-            <li><label for = "message">Message</label><textarea name="comment" form="usrform" placeholder="Enter text here.." class = "field-long field-textarea"><label for= "Write your message in this box!"></label></textarea></li>
+            <li><label for = "name">Name</label><input type= 'text' id = "name" required/> </li>
+            <li> <label for = "email">Email</label> <input type= 'email' id="email" class = "field-long" required></li>
+            <li><label for = "message">Message</label><textarea id = "message" placeholder="Enter text here.." class = "field-long field-textarea" required></textarea></li>
             <li><input type="submit" value= "submit"></li>
           </ul>
         </form>
@@ -104,4 +105,3 @@
 
   </body>
 </html>
-style ='min-width: 250px'
