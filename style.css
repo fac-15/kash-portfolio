@@ -35,15 +35,18 @@ a {
   text-shadow: 1px 1px 1px 1px white;
 }
 
-.hannah-responsive 
-.sandra-responsive
-.kristina-responsive {
+.hannah-responsive .sandra-responsive .kristina-responsive {
   max-width: 60%;
   height: auto;
 }
-.responsive.alex{
-  min-width: 250px;
-  height: 250px;
+.responsive {
+  width: 60%;
+  height: auto;
+}
+
+.responsive.alex {
+  /* min-width: 220px;
+  height: 250px; */
 }
 #logo {
   display: flex;
@@ -52,14 +55,14 @@ a {
 }
 
 .card {
-  height: 30em;
+  height: 90%;
   width: 90vw;
   border: 2px dashed #379683;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  /* padding-top: 3em;
+  padding-bottom: 3em; */
 }
 
 #heading {
@@ -81,7 +84,7 @@ a {
   align-items: center;
   justify-content: center;
   padding-top: 2.5em;
-  margin-bottom: 2vh;
+  margin-bottom: 10vh;
 }
 
 #about {
@@ -119,11 +122,10 @@ a {
   padding-top: 10em;
   padding-left: 6em;
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin: 0 auto;
   max-width: 1200px;
   grid-row-gap: 6em;
-
 }
 
 #team p {
@@ -163,7 +165,6 @@ a {
 }
 .team .alex img {
   grid-area: 1 / 2/ 1 / 2;
-
 }
 .kristina section {
   grid-area: 2 / 4 / 3 / 5;
