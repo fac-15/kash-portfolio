@@ -1,6 +1,5 @@
 body {
-  height: 200em;
-  background-color: #5cdb95;
+  background-color:#5cdb95;
   font-size: 1.1vw;
   margin: 0;
 }
@@ -141,13 +140,8 @@ a {
 }
 
 #contact {
-  padding-top: 6em;
-  height: 50em;
-}
-
-#contact {
   padding-top: 10em;
-  height: 40em;
+  padding-bottom: 10em;
 }
 #section4 {
   background-image: linear-gradient(
@@ -190,7 +184,7 @@ a {
 }
 /************* form style ***************/
 .form-style-1 {
-  margin: 10px auto;
+  margin: 0 auto;
   max-width: 400px;
   padding: 20px 12px 10px 20px;
 }
