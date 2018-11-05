@@ -153,6 +153,7 @@ a {
   top: 0;
   left: 0;
   background-repeat: no-repeat;
+  min-height: 50em;
 }
 
 /**************navbar style *************/
